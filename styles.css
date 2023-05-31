@@ -1,10 +1,12 @@
 /*  your css code here. If applicable */
-.csse::first-child {
-	color: red;
+p::before {
+	content: "Before Element";
+	color: rgb(255, 0, 0);
 }
 
-.csse::nth-last-child(2){
-	color: red;
+p::after {
+	content: "After Element";
+	color: rgb(255, 0, 0);
 }
 
 
